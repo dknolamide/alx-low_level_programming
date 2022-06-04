@@ -4,13 +4,12 @@
  *
  * Return: Always 0 (success)
  */
-
 int main(void)
 {
 	char letter;
 
 	for (letter = 'a'; letter <= 'z'; letter++)
-		put char(letter);
+		putchar(letter);
 
 	putchar('\n');
 
