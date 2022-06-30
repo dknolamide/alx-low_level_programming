@@ -71,8 +71,7 @@ char *iterate_zeroes(char *str)
  * @c: The character to be converted.
  *
  * Description: If c is a non-digit, the function
- * exits with a status of 98.
- *
+ * exits with a status of 98.*
  * Return: The converted int.
  */
 int get_digit(char c)
@@ -186,7 +185,6 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
  *
  * Description: If the number of arguments is incorrect or one number
  * contains non-digits, the function exits with a status of 98.
- *
  * Return: Always 0.
  */
 int main(int argc, char *argv[])
@@ -225,7 +223,6 @@ int main(int argc, char *argv[])
 		if (final_prod[index] != 'x')
 			putchar(final_prod[index]);
 	}
-
 	putchar('\n');
 
 	free(next_prod);
